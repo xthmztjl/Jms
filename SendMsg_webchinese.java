@@ -13,9 +13,9 @@ public class SendMsg_webchinese {
 		PostMethod post = new PostMethod("http://gbk.sms.webchinese.cn");
 		post.addRequestHeader("Content-Type",
 				"application/x-www-form-urlencoded;charset=gbk");// 在头文件中设置转码
-		NameValuePair[] data = { new NameValuePair("Uid", "xthmztjl"),
-				new NameValuePair("Key", "5a02ee4e1632a8666a93"),
-				new NameValuePair("smsMob", "15227670235"),
+		NameValuePair[] data = { new NameValuePair("Uid", "xt"),
+				new NameValuePair("Key", ""),
+				new NameValuePair("smsMob", ""),
 				new NameValuePair("smsText", "【签名内容:测试短信功能。】") };
 		post.setRequestBody(data);
 
